@@ -96,23 +96,19 @@ function RemoveDateThai($strDate)
                                 </a> 
                                 </div>
                                 <div>&nbsp;</div>
-
-                                @if($checkver > 0)
+                              
                                 <div>
                                 <a href="{{ url('general_operate/genoperateindexver/'.$inforpersonuserid -> ID)}}" class="btn" style="font-family: 'Kanit', sans-serif; font-size: 10px;font-size: 1.0rem;font-weight:normal;background-color:#00BFFF;color:#F0FFFF;">ตรวจสอบ  
                                 </a>   
                                 </div>           
                                 <div>&nbsp;</div>
-                                @endif
-                                
-                                @if($checkallow > 0)
                                 <div>
                                 <a href="{{ url('general_operate/genoperateindexapp/'.$inforpersonuserid -> ID)}}" class="btn btn-success" >อนุมัติ  
+                               
                                 </a> 
                                 </div>
                                 <div>&nbsp;</div>
-                                @endif
-
+                                    
                                 </ol>
                             </nav>
                         </div>
